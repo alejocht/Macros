@@ -1,0 +1,29 @@
+--Funciones de resumen
+-- USE UnivSemana5_1
+-- go
+-- -- Punto 1
+-- Select COUNT(*) FROM Cursos
+-- -- Punto 2
+-- SELECT COUNT(*) FROM Usuarios
+-- -- Punto 3
+-- SELECT AVG(c.Costo) FROM Certificaciones c
+-- -- Punto 4
+-- SELECT AVG(r.Puntaje) FROM Reseñas r
+-- -- Punto 5
+-- SELECT MIN(Estreno) FROM Cursos
+-- -- Punto 6
+-- SELECT MIN(c.Costo) FROM Certificaciones c
+-- -- Punto 7
+-- SELECT SUM(c.Costo) FROM Certificaciones c
+-- -- Punto 8
+-- SELECT SUM(Pagos.Importe) FROM Pagos
+-- Punto 9
+-- SELECT COUNT(*) FROM Cursos WHERE Cursos.IDNivel = 5 
+-- -- Punto 10
+-- SELECT SUM(Pagos.Importe) FROM Pagos WHERE YEAR(Pagos.Fecha) = 2020
+-- -- Punto 11
+-- SELECT COUNT(*) FROM Usuarios
+-- INNER JOIN Instructores_x_Curso ON Instructores_x_Curso.IDUsuario = Usuarios.ID
+-- -- Punto 12
+-- SELECT DISTINCT COUNT(*) FROM Certificaciones
+-- Punto 13
